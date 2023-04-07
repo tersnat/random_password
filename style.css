@@ -1,0 +1,53 @@
+body {
+    font-family: 'Schibsted Grotesk', sans-serif;
+    height: 1rem;
+    background: rgb(24, 23, 23);
+  }
+  
+  .container {
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center;
+    padding: 20rem;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: rgb(252, 238, 221);
+    text-align: center;
+  }
+  
+  .password {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  #password {
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    
+    border-radius: 25px;
+    margin-right: 10px;
+  }
+  
+  button {
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-size: 16px;
+    padding: 9px;
+    margin: 2px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1663d6;
+    color: #f1eeee;
+    cursor: pointer;
+  }  
+  
+  button:hover {
+    background-color: #1556ac;
+  }
+  
