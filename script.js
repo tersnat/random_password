@@ -12,7 +12,7 @@ function generatePassword() {
   var copyText = document.getElementById("password");
   copyText.select();
   copyText.setSelectionRange(0, 99999);
-  document.execCommand("password");
+  document.execCommand("copy");
   alert("Your password was copied.")
 }
 
