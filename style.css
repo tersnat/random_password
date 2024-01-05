@@ -22,15 +22,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
   
   #password {
     font-family: 'Schibsted Grotesk', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     padding: 10px;
     border: none;
-    
     border-radius: 25px;
     margin-right: 10px;
   }
